@@ -1,0 +1,17 @@
+State Tree
+----------
+
+state
+  |__________________________
+  |          |               |
+  |          |               |
+ users   currentUser       route
+  !
+  !
+{userId}
+  |
+  |
+messages
+  |
+  |
+{messageId}

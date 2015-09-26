@@ -199,6 +199,20 @@ export default appState;</code></pre>
         </section>
 
         <section>
+          <p>client/app.js</p>
+          <pre><code>...
+
+var render = () => {
+  React.render(React.createElement(AppHandler),
+    document.getElementById("root"));
+};
+
+appState.on("swap", render);
+
+...</code></pre>
+        </section>
+
+        <section>
           <p>Maintaining our own abstraction for Immstruct/Immutable</p>
         </section>
 

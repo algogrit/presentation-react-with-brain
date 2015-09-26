@@ -1,0 +1,15 @@
+View Component Hierarchy
+------------------------
+
+Layout
+  |
+  |
+UserListComponent
+  |______________________
+  !                      |
+  !                      |
+MessagePane        UserComponent
+{userId}                 |
+  |                      |
+  |                      |
+Message             PhotoComponent
